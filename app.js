@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 //   useNewUrlParser: true
 // });
 
-mongoose.connect("mongodb+srv://admin-chris:admin-chris@cluster0-gsnjm.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://admin-chris:admin-chris@cluster0-gsnjm.mongodb.net/blogDB", {
   useNewUrlParser: true
 });
 
